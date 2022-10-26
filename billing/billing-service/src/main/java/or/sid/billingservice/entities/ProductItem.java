@@ -22,4 +22,8 @@ public class ProductItem {
     private Bill bill;
     private int quantity;
     private double price;
+
+    public double getAmount(){
+        return quantity*price;
+    }
 }

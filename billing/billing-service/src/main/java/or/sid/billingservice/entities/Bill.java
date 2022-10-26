@@ -20,4 +20,12 @@ public class Bill {
     private Customer customer;
     @OneToMany(mappedBy = "bill")
     private List<ProductItem> productItems;
+
+    public double getTotal(){
+        double sum=0;
+        for(ProductItem productItem:productItems){
+            sum+=productItem.getPrice()*productItem.getQuantity();
+        }
+        return sum;
+    }
 }

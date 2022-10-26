@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="104bd3d8-fe39-4edb-ba74-71fad710da2a" name="Changes" comment="" />
+    <list default="true" id="104bd3d8-fe39-4edb-ba74-71fad710da2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/BillProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/customer-service/src/main/java/org/sid/customerservice/entities/CustomerProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +23,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,17 +50,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Docs2021/23-apps/ecom-app/config-repo",
+    "last_opened_file_path": "C:/Docs2021/23-apps/ecom-app/gateway/gateway-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "6291d8b7e6e512ecb8b3f8c7c7981d65"
+    "spring.configuration.checksum": "6291d8b7e6e512ecb8b3f8c7c7981d65",
+    "ts.external.directory.path": "C:\\Docs2021\\23-apps\\ecom-app\\ecom-angular-web-app\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Docs2021\23-apps\ecom-app\gateway\gateway-service\src\main\resources" />
       <recent name="C:\Docs2021\23-apps\ecom-app\config-repo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666442125197</updated>
       <workItem from="1666442126701" duration="8005000" />
-      <workItem from="1666688754866" duration="12365000" />
+      <workItem from="1666688754866" duration="18830000" />
     </task>
     <servers />
   </component>
