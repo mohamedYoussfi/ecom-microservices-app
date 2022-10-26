@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-customers',
@@ -8,7 +9,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class CustomersComponent implements OnInit {
   customers : any;
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
     this.http.get("http://localhost:8080/CUSTOMER-SERVICE/customers?projection=customerProj1")
@@ -20,4 +21,7 @@ export class CustomersComponent implements OnInit {
       });
   }
 
+  handleGetBills(id:number) {
+    this.router.navigateByUrl("/bills/"+id);
+  }
 }

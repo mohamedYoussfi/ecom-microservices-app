@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104bd3d8-fe39-4edb-ba74-71fad710da2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/BillProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/customer-service/src/main/java/org/sid/customerservice/entities/CustomerProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/entities/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/BillingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/BillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/ProductItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/ProductItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/bills/bills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/bills/bills.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666442125197</updated>
       <workItem from="1666442126701" duration="8005000" />
-      <workItem from="1666688754866" duration="18830000" />
+      <workItem from="1666688754866" duration="23534000" />
     </task>
     <servers />
   </component>

@@ -35,22 +35,29 @@ public class BillingServiceApplication {
         return args -> {
             Long customerId=1L;
             Customer customer=customerRestClient.customerById(customerId);
-            customer.setId(customerId);
-            Collection<Product> productList=inventoryRestClient.allProducts().getContent();
+            List<Customer> customers=customerRestClient.allCustomers().getContent().stream().toList();
+            List<Product> productList=inventoryRestClient.allProducts().getContent().stream().toList();
             System.out.println(customer.toString());
             System.out.println(productList);
-            Bill bill= Bill.builder().createdAt(new Date()).customerId(customerId).build();
-            Bill savedBill = billRepository.save(bill);
-            productList.forEach(p->{
-                ProductItem productItem= ProductItem.builder()
-                        .productId(p.getId())
-                        .price(p.getPrice())
-                        .quantity(new Random().nextInt(5))
-                        .bill(savedBill)
-                        .productId(p.getId())
-                        .build();
-                productItemRepository.save(productItem);
-            });
+            for (int i = 1; i <5 ; i++) {
+                var index=new Random().nextInt(customers.size());
+                Customer randomCustomer=customers.get(index);
+                Bill bill= Bill.builder().createdAt(new Date()).customerId(randomCustomer.getId()).build();
+                Bill savedBill = billRepository.save(bill);
+                productList.forEach(p->{
+                    if(Math.random()>0.5){
+                        ProductItem productItem= ProductItem.builder()
+                                .productId(p.getId())
+                                .price(p.getPrice())
+                                .quantity(1+new Random().nextInt(5))
+                                .bill(savedBill)
+                                .productId(p.getId())
+                                .build();
+                        productItemRepository.save(productItem);
+                    }
+                });
+            }
+
         };
     }
     @Bean

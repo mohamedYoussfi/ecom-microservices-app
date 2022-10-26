@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-bills',
@@ -9,10 +9,13 @@ import {Router} from "@angular/router";
 })
 export class BillsComponent implements OnInit {
    bills : any;
-  constructor(private http:HttpClient, private router : Router) { }
+   customerId!:number;
+  constructor(private http:HttpClient, private router : Router, private  route:ActivatedRoute) {
+    this.customerId=route.snapshot.params['customerId'];
+  }
 
   ngOnInit(): void {
-    this.http.get("http://localhost:8080/BILLING-SERVICE/bills?projection=billProj1")
+    this.http.get("http://localhost:8080/BILLING-SERVICE/bills/search/billsByCustomerId?projection=billProj1&id="+this.customerId)
       .subscribe({
         next : (data)=>{
           this.bills=data;
