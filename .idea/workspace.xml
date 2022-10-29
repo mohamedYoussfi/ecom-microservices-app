@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="104bd3d8-fe39-4edb-ba74-71fad710da2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/BillingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/BillRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/ProductItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/repository/ProductItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/billing/billing-service/src/main/java/or/sid/billingservice/services/CustomerRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/bills/bills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/bills/bills.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/customers/customers.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/products/products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-angular-web-app/src/app/products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-angular-web-app/src/app/products/products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/inventory-service/src/main/java/org/sid/inventoryservice/repositories/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Docs2021/23-apps/ecom-app/gateway/gateway-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "6291d8b7e6e512ecb8b3f8c7c7981d65",
-    "ts.external.directory.path": "C:\\Docs2021\\23-apps\\ecom-app\\ecom-angular-web-app\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Docs2021/23-apps/ecom-app/gateway/gateway-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6291d8b7e6e512ecb8b3f8c7c7981d65&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Docs2021\\23-apps\\ecom-app\\ecom-angular-web-app\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Docs2021\23-apps\ecom-app\gateway\gateway-service\src\main\resources" />
@@ -126,6 +119,8 @@
       <updated>1666442125197</updated>
       <workItem from="1666442126701" duration="8005000" />
       <workItem from="1666688754866" duration="23534000" />
+      <workItem from="1666869299744" duration="5207000" />
+      <workItem from="1667040076278" duration="310000" />
     </task>
     <servers />
   </component>

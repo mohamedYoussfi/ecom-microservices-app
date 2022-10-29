@@ -1,8 +1,25 @@
-<div class="container">
-  <table class="table" *ngIf="products">
+<div class="container" *ngIf="products">
+  <form [formGroup]="searchProductsForm" (ngSubmit)="searchProducts()">
+    <div class="input-group input-group-sm">
+      <label class="input-group-text">Keyword</label>
+      <input class="form-control" type="text" formControlName="keyword">
+      <button class="btn btn-success">Search</button>
+    </div>
+  </form>
+  <form [formGroup]="productFormGroup" (ngSubmit)="addProduct()">
+  <table class="table" >
     <thead>
     <tr>
       <th>ID</th><th>Name</th><th>Price</th><th>Quantity</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="text" formControlName="name"></td>
+        <td><input type="text" formControlName="price"></td>
+        <td><input type="text" formControlName="quantity"></td>
+        <td>
+          <button class="btn btn-sm btn-success">Add</button>
+        </td>
     </tr>
     </thead>
     <tbody>
@@ -14,4 +31,5 @@
     </tr>
     </tbody>
   </table>
+  </form>
 </div>
